@@ -1,2 +1,42 @@
+$navbar-default-bg: #000;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+    color: #FFF;
+    float: left;
+    font-size: 1.7em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+#logo:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: asset-url('cover_image.png');
+    background-size: 100% 100%;
+}
+
+.jumbotron h1, h2{
+    color: #FFF;
+}
+
+.btn-sign-up-lg {
+    background-color: #000;
+    font-weight: 300;
+    border: 0;
+}
+
+.btn-sign-up-lg:hover {
+    background-color: #000;
+    border: 0;
+}
