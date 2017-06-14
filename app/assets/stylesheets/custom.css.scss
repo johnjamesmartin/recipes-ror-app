@@ -26,16 +26,17 @@ $navbar-default-bg: #000;
     background-size: 100% 100%;
 }
 
-.jumbotron h1, h2{
+.jumbotron h1 {
     color: #FFF;
     text-shadow: 1px 1px 1px #000;
 }
 
 
 .jumbotron h2 {
-    color: #c3a400;
+    color: #C3A400;
     text-shadow: 1px 1px 1px #000;
 }
+
 h1, h2 {
     font-weight: 300;
     color: #000;
@@ -51,4 +52,8 @@ h1, h2 {
 .btn-sign-up-lg:hover {
     background-color: #000;
     border: 0;
+}
+
+.ul-nav-bottom {
+    float: right;
 }
